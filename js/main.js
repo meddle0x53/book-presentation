@@ -18,7 +18,7 @@
       var templ = htmltempl;
 
       $.ajax({
-        url: '/steps/' + step.uri,
+        url: '/book-presentation/steps/' + step.uri,
         success: function (data) {
           $('.steps').append(templ(
             {
