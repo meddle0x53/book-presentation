@@ -1,4 +1,3 @@
-// Generated on 2014-10-20 using generator-impress 0.1.2
 'use strict';
 
 var LIVERELOAD_PORT = 35729;
@@ -30,8 +29,7 @@ module.exports = function (grunt) {
     connect: {
       options: {
         port: 9000,
-        // change this to '0.0.0.0' to access the server from outside
-        hostname: 'localhost'
+        hostname: '0.0.0.0'
       },
       livereload: {
         options: {
